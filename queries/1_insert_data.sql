@@ -28,7 +28,3 @@ VALUES ('password2', 'Anakin', 'Skywalker', 'john@doe2.fr', 'That\s me B**ch wha
 
 INSERT INTO candidate (password, firstname, lastname, email, description, jobID)
 VALUES ('password3', 'Qui-Gon', 'Jinn', 'john@doe3.fr', 'That\s me B**ch what else would you need to know', 1);
-
-
-
-SELECT * FROM job;
