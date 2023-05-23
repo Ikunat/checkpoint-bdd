@@ -18,6 +18,9 @@ VALUES ('Cleaner','Clean this floor you piece of ****', 'Paris');
 INSERT INTO job (title, description, city)
 VALUES ('Politician','Read this paper you piece of ****', 'Paris');
 
+INSERT INTO job (title, description, city)
+VALUES ('Politician','Read this paper you nordist piece of ****', 'Lille');
+
 # CANDIDATES
 
 INSERT INTO candidate (password, firstname, lastname, email, description, jobID)
