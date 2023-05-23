@@ -4,8 +4,8 @@
 
 # ENTREPRISES
 
-INSERT INTO entreprise (name, description)
-VALUES ('WCS', 'Wild Code School');
+INSERT INTO entreprise (name, description, jobID)
+VALUES ('WCS', 'Wild Code School', 1);
 
 # JOBS
 
@@ -27,7 +27,7 @@ INSERT INTO candidate (password, firstname, lastname, email, description, jobID)
 VALUES ('password1', 'Obi-Wan', 'Kenobi', 'john@doe1.fr', 'That\s me B**ch what else would you need to know', 1);
 
 INSERT INTO candidate (password, firstname, lastname, email, description, jobID)
-VALUES ('password2', 'Anakin', 'Skywalker', 'john@doe2.fr', 'That\s me B**ch what else would you need to know', 1);
+VALUES ('password2', 'Anakin', 'Skywalker', 'john@doe2.fr', 'That\s me B**ch what else would you need to know', 2);
 
 INSERT INTO candidate (password, firstname, lastname, email, description, jobID)
 VALUES ('password3', 'Qui-Gon', 'Jinn', 'john@doe3.fr', 'That\s me B**ch what else would you need to know', 1);
